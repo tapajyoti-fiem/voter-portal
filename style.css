@@ -1,0 +1,347 @@
+h1 {
+    color: rgb(0, 47, 255);
+}
+
+/* h1 {
+    background-color: rgb(243, 232, 232);
+} */
+
+h1 {
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/*identification*/
+.id{
+    text-align: center;    
+} 
+
+header {
+    background-color: rgb(62, 53, 113);
+    text-align: center;
+}
+
+.logo {
+    background-color: white;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #f2f7f2;
+
+    text-align: left;
+    padding: 14px;
+    float: left;
+}
+
+nav {
+    background-color: #33398d;
+    overflow: hidden;
+    display: flex;
+    height: 45px;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+.nav-search-box {
+    width: 00px;
+    height: 40px;
+    background: #33398d;
+    /* margin: 200px auto 0; */
+    border-radius: 5px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    justify-content: space-evenly;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    background: 33398d;
+    height: 15px;
+    
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    width: 100%;
+    /* background: transparent; */
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    /* color: #333; */
+    border: none;
+}
+
+
+button {
+    background: #fff;
+    border: 0;
+    outline: 0;
+    width: 10px;
+    display: flex;
+    height: 65%;
+    align-items: center;
+
+}
+
+button .fa-solid {
+    width: 25px;
+    color: #555;
+    background: #fff;
+    font-size: 20px;
+    cursor: pointer
+}
+.nav-home {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-call {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+/* .nav-all-search{
+    text-align: center;
+    border-radius: 5px;
+    float:right;
+}
+form.fa-regular{
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+} */
+
+
+
+
+nav a:hover {
+    color: tomato;
+}
+
+.menu {
+    color: #f2f7f2;
+    text-align: right;
+}
+
+
+
+/* nav a {
+    text-decoration: none;
+    color: #f2f7f2;
+
+    text-align:left;
+    padding: 12px;
+    float: left;
+    display: flex;
+}
+
+nav {
+    background-color: #33398d;
+    overflow: hidden;
+}
+
+nav a:hover {
+    color: tomato;
+}
+.menu{
+    color: #f2f7f2;
+    text-align:right;
+    display: flex;
+    
+} */
+
+
+
+
+
+
+/* Terms and condition */
+
+.box {
+    background-color: rgb(235, 238, 230);
+    width: 100%;
+    border: 3px solid rgb(73, 76, 137);
+    padding: 4px;
+    margin: 5px;
+    text-align: center;
+   
+}
+
+/* Terms and condition */
+
+
+/* test for  sliding image*/
+
+.containor {
+    width: 100%;
+    height: 30vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+
+}
+
+.swiper {
+    width: 66%;
+    height: fit-content;
+}
+
+.swiper-slide {
+    width: 62%;
+
+}
+
+/*two side arroe colour chenge*/
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: rgb(30, 196, 30);
+}
+
+/*two doted area colour chenge*/
+.swiper .swiper-pagination-bullet-active {
+    background: #090000;
+}
+
+
+/* test for  sliding image */
+
+
+
+.necessity {
+    text-align: center;
+    font-size:medium;
+    background-color: rgb(112, 160, 152);
+    
+    padding: 001px;
+    border-radius:0.7cm;
+    color: #000000;
+    
+}
+.registered-line{
+    text-align: center;
+    font-size:medium;
+    background-color: rgb(112, 160, 152);
+    
+    padding: 0.1px;
+    border-radius:0.7cm;
+}
+
+.list {
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 30px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+
+
+.form {
+    background-color: #e4ede4;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(107, 38, 38);
+    border-radius: 10;
+    border: #670812;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border: 5px;
+    margin: 10px;
+
+}
+
+/* fieldset {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    
+} */
+
+/* .gender{
+    background-color: #fff;
+    height:50%;
+    width: 100%;
+    text-align: center;
+    font-size:small;
+    font-style:inherit;
+    display: flex;
+} */
+
+
+
+
+input[type="submit"] {
+    background-color: rgb(67, 73, 136);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+
+}
+
+h2 {
+    color: rgba(156, 80, 80, 0.925);
+}
+
+h2 {
+    background-color: rgb(224, 221, 234);
+}
+
+
+footer {
+    background-color: rgb(56, 152, 152);
+    text-align: center;
+    padding: 1px;
+    line-height: 0cm;
+
+}
